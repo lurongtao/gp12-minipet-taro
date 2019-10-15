@@ -23,7 +23,8 @@ class App extends Component {
       "pages/index/index",
       "pages/publish/publish",
       "pages/search/search",
-      "pages/detail/detail"
+      "pages/detail/detail",
+      "pages/notify/notify"
     ],
     "window": {
       "navigationBarBackgroundColor": "#52b9d2",

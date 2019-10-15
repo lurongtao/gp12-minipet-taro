@@ -1,6 +1,8 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text, Button } from '@tarojs/components'
 
+import './detail.scss'
+
 class Detail extends Component {
   state = {
     address: '',
@@ -31,31 +33,31 @@ class Detail extends Component {
 
   render() {
     return (
-      <View class="pub-container">
-        <View class="item">
-          <View class="label">我的地址</View>
-          <View class="content">{this.state.address}</View>
+      <View className="pub-container">
+        <View className="item">
+          <View className="label">我的地址</View>
+          <View className="content">{this.state.address}</View>
         </View>
-        <View class="item">
-          <View class="label">类型</View>
-          <View class="content">
+        <View className="item">
+          <View className="label">类型</View>
+          <View className="content">
             {this.state.type}
           </View>
         </View>
-        <View class="item">
-          <View class="label">说明</View>
-          <View class="content">
+        <View className="item">
+          <View className="label">说明</View>
+          <View className="content">
             {this.state.message}
           </View>
         </View>
-        <View class="item">
-          <View class="label">联系方式</View>
-          <View class="content">
+        <View className="item">
+          <View className="label">联系方式</View>
+          <View className="content">
             {this.state.contact}
           </View>
         </View>
 
-        <View class="button">
+        <View className="button">
           <Button onTap={this.handleBackTap}> 返回 </Button>
         </View>
       </View>

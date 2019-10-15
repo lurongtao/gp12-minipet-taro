@@ -1,0 +1,30 @@
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.search-container .result {
+  flex: 1;
+  background: #eee;
+  overflow: hidden;
+}
+
+.item {
+  margin-bottom: 20rpx;
+  background: #fff;
+  padding: 20rpx;
+}
+
+.address {
+  font-size: 24rpx;
+  color: #f19a38;
+}
+
+.message {
+  font-size: 30rpx;
+}
