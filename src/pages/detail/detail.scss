@@ -1,0 +1,55 @@
+.pub-container {
+
+}
+
+.item {
+  display: flex;
+  height: 100rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.item .label {
+  width: 200rpx;
+  line-height: 100rpx;
+  padding-left: 20rpx;
+  font-weight: 300;
+}
+
+.item .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+}
+
+.item .content radio {
+  margin-right: 30rpx;
+}
+
+.button {
+  padding: 50rpx 40rpx;
+}
+
+.button button {
+  background: #f19a38;
+  color: #fff;
+}
+
+.notify .info {
+  padding: 60rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notify .info icon {
+  margin-right: 30rpx;
+}
+
+.info-btn {
+  padding: 0 40rpx;
+}
+
+.info-btn button{
+  
+}

@@ -1,0 +1,13 @@
+<!-- <view class="notify">
+  <view class="info">
+    <icon type="{{isSuccess ? 'success' : 'warn'}}" size="50"></icon>
+    <text>数据提交{{isSuccess ? '成功' : '失败'}}！</text>
+  </view>
+  <view class="info-btn">
+    <button type="primary" bindtap="handleBackHomeTap" hidden="{{!isSuccess}}">返回首页</button>
+    <button type="warn" bindtap="handleBackSubmitTap" hidden="{{isSuccess}}">继续提交</button>
+  </view>
+</view> -->
+<view>
+  <text>bb</text>
+</view>

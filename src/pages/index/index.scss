@@ -1,0 +1,58 @@
+.index-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.index-container > view:nth-child(1) {
+  flex: 1;
+}
+
+.index-container > view:nth-child(1) map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.index-container > view:nth-child(2) {
+  height: 88rpx;
+  background: #f19a38;
+  display: flex;
+}
+
+navigator {
+  flex: 1;
+}
+
+.publish, .search {
+  text-align: center;
+  line-height: 88rpx;
+  color: #fff;
+}
+
+.search {
+  background: #52b9d2;
+}
+
+.icon-nav {
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+}
+
+.icon-nav cover-image {
+  width: 68rpx;
+  height: 68rpx;
+}
+
+.icon-loc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-loc cover-image {
+  width: 44rpx;
+  height: 62rpx;
+}
